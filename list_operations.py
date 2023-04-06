@@ -1,5 +1,14 @@
 """Utilities for manipulating lists."""
+# List indexing (some_list[index])
+# List indexing assignment (some_list[index] = value)
+# List slicing (some_list[start:end])
+# List slicing assignment (some_list[start:end] = another_list)
+# List index deletion (del some_list[index])
+# List slicing deletion (del some_list[start:end])
 
+# You may not:
+# Use any of the Python built-in methods for lists.
+# Use the len() function Python provides to get the list length.
 
 ### List Slicing Problems ###
 
@@ -12,7 +21,7 @@ def head(input_list):
       'Jan'
     """
 
-    return []
+    return input_list[0]
 
 
 def tail(input_list):
@@ -24,7 +33,7 @@ def tail(input_list):
     ['Feb', 'Mar']
 
     """
-
+    
     return []
 
 
