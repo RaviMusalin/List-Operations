@@ -222,8 +222,12 @@ def indices_of_positive_numbers(input_list):
     [0, 2, 3, 6]
 
     """
+    new_list = []
+    for i in range(len(input_list)): 
+        if input_list[i] > 0:
+            new_list.append(i)            
 
-    pass
+    return new_list
 
 
 def sum_repeats(input_list):
