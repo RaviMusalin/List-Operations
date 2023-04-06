@@ -177,8 +177,7 @@ def backwards(input_list):
     ['May', 'Apr', 'Mar', 'Feb', 'Jan']
 
     """
-
-    pass
+    return input_list[::-1]
 
 
 def every_other(input_list):
