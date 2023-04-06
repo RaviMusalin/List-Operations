@@ -190,7 +190,7 @@ def every_other(input_list):
 
     """
 
-    pass
+    return input_list[::2]
 
 
 def delete_third_and_seventh(input_list):
