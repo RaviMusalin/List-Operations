@@ -242,5 +242,15 @@ def sum_repeats(input_list):
     7
 
     """
+    # Initialize a new list
+    # If the index = index + 1 -> append value[index] to new list
+    # sum all the values of new list
+    
+    new_list = []
 
-    pass
+    for i in range(len(input_list) - 1):
+        if input_list[i] == input_list[i+1]:
+            new_list.append(input_list[i])
+
+    sum_of_list = sum(new_list)
+    return sum_of_list
